@@ -2954,7 +2954,9 @@ python-pyaudio:
   openembedded: ['${PYTHON_PN}-pyalsaaudio@meta-python']
   ubuntu: [python-pyaudio]
 python-pyautogui:
-  debian: [pyautogui]
+  ubuntu:
+    pip:
+      packages: [pyautogui]
 python-pycodestyle:
   arch: [python2-pycodestyle]
   debian:
