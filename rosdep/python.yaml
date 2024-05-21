@@ -2953,6 +2953,8 @@ python-pyaudio:
   nixos: [pythonPackages.pyaudio]
   openembedded: ['${PYTHON_PN}-pyalsaaudio@meta-python']
   ubuntu: [python-pyaudio]
+python-pyautogui
+  debian: [pyautogui]
 python-pycodestyle:
   arch: [python2-pycodestyle]
   debian:
